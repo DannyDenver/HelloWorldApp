@@ -13,7 +13,7 @@ namespace Welt
         {
             InitializeComponent();
 
-            MainPage = new Welt.GridPage();
+            MainPage = new Welt.RelativeLayout();
         }
 
         protected override void OnStart()
