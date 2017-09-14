@@ -41,6 +41,12 @@
     <Compile Include="GreetingPage.xaml.cs">
       <DependentUpon>GreetingPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GridPage.xaml.cs">
+      <DependentUpon>GridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstagramPage.xaml.cs">
+      <DependentUpon>InstagramPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
@@ -99,6 +105,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InstagramPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GridPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
