@@ -3,7 +3,7 @@
         xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Welt.StackPage">
-    <StackLayout
+    <!--<StackLayout
                  Orientation="Horizontal"
                  Spacing="20"
                  Padding="40"
@@ -12,11 +12,9 @@
         <StackLayout>
             <Image Source="http://placehold.it/100x100" />
             <Label Text="Label 1" />
-
-
         </StackLayout>
         <Label Text="Label 2"  BackgroundColor="Silver" />
         <Label Text="Label 3" BackgroundColor="Silver" />
-    </StackLayout>
+    </StackLayout>-->
 
 </ContentPage>
