@@ -13,7 +13,7 @@ namespace Welt
         {
             InitializeComponent();
 
-            MainPage = new Welt.StackPage();
+            MainPage = new Welt.LoginPage();
         }
 
         protected override void OnStart()
